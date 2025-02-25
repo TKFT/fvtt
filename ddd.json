@@ -1,0 +1,119 @@
+{
+    "author": "Dragonshorn Studios",
+    "authors": [
+        {
+            "name": "Dragonshorn Studios"
+        }
+    ],
+    "changelog": "https://dragonshorn.com/products/crypt-of-the-fallen-cult/",
+    "compatibility": {
+        "maximum": "12",
+        "minimum": "11",
+        "verified": "12"
+    },
+    "description": "The Unraveled Tower is a one-shot dungeon crawl for parties at level 3 (or 6) for the 5th and 3.5 editions! Featuring new monsters and multitude of puzzles and obstacles for players to overcome, it can be easily dropped in into any urban or horror themed adventure as a point of interest.",
+    "esmodules": [
+        "config/config.js",
+        "module/js/adventure-browser-lib.js",
+        "module/js/importer.js"
+    ],
+    "id": "drgh-unraveled-tower",
+    "languages": [],
+    "manifest": "https://licenses.legaciesofthedragon.com/m/drgh-unraveled-tower",
+    "media": [
+        {
+            "link": "https://media.dragonshorn.com/qeHO4/ReVUKIye80/raw.jpg",
+            "type": "cover"
+        }
+    ],
+    "packs": [
+        {
+            "label": "The Unraveled Tower - Creatures and NPC",
+            "name": "npcs5e",
+            "path": "packs/actors",
+            "system": "dnd5e",
+            "type": "Actor"
+        },
+        {
+            "label": "The Unraveled Tower - Journal",
+            "name": "journal5e",
+            "path": "packs/journal",
+            "system": "dnd5e",
+            "type": "JournalEntry"
+        },
+        {
+            "label": "The Unraveled Tower - Items",
+            "name": "items5e",
+            "path": "packs/items",
+            "system": "dnd5e",
+            "type": "Item"
+        },
+        {
+            "label": "The Unraveled Tower - Creatures and NPC",
+            "name": "npcs35e",
+            "path": "packs/actors35e",
+            "system": "D35E",
+            "type": "Actor"
+        },
+        {
+            "label": "The Unraveled Tower - Journal",
+            "name": "journal35e",
+            "path": "packs/journal35e",
+            "system": "D35E",
+            "type": "JournalEntry"
+        },
+        {
+            "label": "The Unraveled Tower - Items",
+            "name": "items35e",
+            "path": "packs/items35e",
+            "system": "D35E",
+            "type": "Item"
+        },
+        {
+            "label": "The Unraveled Tower - Scenes",
+            "name": "scenes",
+            "path": "packs/scenes",
+            "type": "Scene"
+        },
+        {
+            "label": "The Unraveled Tower - Macros",
+            "name": "macros",
+            "path": "packs/macros",
+            "type": "Macro"
+        }
+    ],
+    "protected": false,
+    "relationships": {
+        "requires": [],
+        "systems": [
+            {
+                "id": "D35E",
+                "type": "system",
+                "compatibility": {}
+            },
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "requires": [],
+    "scripts": [],
+    "socket": false,
+    "styles": [
+        "./template/custom.css"
+    ],
+    "title": "Dragonshorn Tales - The Unraveled Tower (5e/3.5e)",
+    "url": "https://dragonshorn.com/products/crypt-of-the-fallen-cult/",
+    "version": "1.3.3",
+    "packFolders": [
+        {
+            "name": "Dragonshorn Tales - The Unraveled Tower (5e/3.5e)",
+            "packs": [
+                "scenes"
+            ],
+            "sorting": "m"
+        }
+    ]
+}
